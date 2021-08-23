@@ -7,7 +7,7 @@
     <div class="items">
       <Card v-for="menu in farray" :key="menu" :menu="menu" />
     </div>
-    <button @click="add()">show more reviews</button>
+    <button @click="add()">show more items</button>
   </div>
 </template>
 <script>
@@ -24,6 +24,7 @@ export default {
 
   data() {
     return {
+      categoryName: this.item.category,
       itemToShow: 6,
       totalitems: 0,
       farray: [],
