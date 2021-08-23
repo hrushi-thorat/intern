@@ -3,6 +3,7 @@
     <div class="sidebar">
       <div class="sidebar-content">
         <SideBar
+          @click="Toggle = false"
           v-for="item in items"
           :key="item"
           :item="item"

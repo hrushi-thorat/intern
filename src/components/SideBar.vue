@@ -29,6 +29,7 @@ export default {
   methods: {
     scroll(id) {
       this.a = !this.a;
+
       document.getElementById(id).scrollIntoView({
         behavior: "smooth",
       });

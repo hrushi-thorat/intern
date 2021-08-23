@@ -48,7 +48,6 @@ export default {
   created() {
     this.cusin = this.menu.food_types.slice(0, 3);
     this.star = this.menu.ratings;
-    console.log(this.menu.isExlusive);
   },
 };
 </script>
